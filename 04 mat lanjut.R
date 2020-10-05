@@ -1,7 +1,7 @@
 install.packages("matlib")
 library(matlib)
 
- # JAWABAN NO 1A
+ # JAWABAN NO 1
 A <- matrix(c(5,4,-1,1),2,2,TRUE)
 B <- c(-10,2)
 showEqn(A,B)
@@ -14,7 +14,7 @@ echelon(A,B)
 
 echelon(A,B, verbose=TRUE, fractions=TRUE)
 
-#JAWABAN NO 1B
+#JAWABAN NO 2
 C <- matrix(c(4,-2,0,5,-2,1,3,4,-1),3,3,TRUE)
 D <- c(2,7,3)
 showEqn(C,D)
@@ -25,7 +25,7 @@ plotEqn3d(C,D)
 
 echelon(C,D, verbose=TRUE, fractions=TRUE)
 
-#JAWABAN NO 2A
+#JAWABAN NO 3
 E <- matrix(c(1,1,1,2,3,5,4,0,5),3,3,TRUE)
 F <- c(5,8,2)
 showEqn(E,F)
@@ -36,7 +36,7 @@ plotEqn3d(E,F)
 
 echelon(E,F, verbose=TRUE, fractions=TRUE)
 
-#JAWABAN NO 2B
+#JAWABAN NO 4
 G <- matrix(c(2,5,1,-1,4,3,5,0,-2),3,3,TRUE)
 H <- c(-12,-4,-13)
 showEqn(G,H)
